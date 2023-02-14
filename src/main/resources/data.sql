@@ -6,6 +6,7 @@ VALUES
    ,('COM.01.003', 'Cloud Native',          NOW(), 'OREILLY',     'Boris Scholl 외 2',     '최초등록', 5, '컴퓨터', true, '/images/cloudNative.jpeg')
    ,('COM.01.004', 'Event Storming',        NOW(), 'leanpub',      'Alberto Brandolini',  '최초등록', 5, '컴퓨터', true, '/images/eventStorming.jpg')
    ,('HUM.01.001', '슬기로운KEP생활',           NOW(), 'KEP',          'andrew',              '최초등록', 5, '인문',   true, '/images/kep_life.jpg')
+   ,('HUM.01.002', '라이언, 내 곁에 있어줘',      NOW(), 'arte',         '전승환',                '최초등록', 5, '컴퓨터', true, '/images/rian_sideme.webp');
 
 
 INSERT INTO category (id, name)
