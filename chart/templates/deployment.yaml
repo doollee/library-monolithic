@@ -31,12 +31,6 @@ spec:
           resources:
             {{- toYaml . | nindent 12 }}
           {{- end }}
-          command: [ "java" ]
-          args:
-            - "-Xmx400M"
-            - "-jar"
-            - "/build/libs/library-monolithic-0.0.1-SNAPSHOT.jar"
-            - "--spring.profiles.active=local"
           {{- with .Values.app.env }}
           env:
             {{- toYaml . | nindent 12 }}
