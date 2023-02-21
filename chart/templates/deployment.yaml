@@ -18,6 +18,7 @@ spec:
     metadata:
       labels:
         app: {{ .Values.app.name }}
+        date: "{{ now | unixEpoch }}"
     spec:
       {{- with .Values.app.hostAliases }}
       hostAliases:
